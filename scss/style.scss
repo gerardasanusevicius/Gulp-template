@@ -1,0 +1,41 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden; 
+}
+body {
+  font-family: lato;
+  padding-top:59px;
+  max-width:100%;
+}
+
+i:hover {
+  transform:scale(1.2);
+}
+
+a:hover {
+  cursor:pointer;
+}
+
+.button:hover {
+  cursor:pointer;
+}
+
+@import "mixins";
+@import "variables";
+@import "header";
+@import "top";
+@import "second";
+@import "flex";
+@import "faces";
+@import "bottom";
+@import "footer";
+
+//media
+@import "media";
+
+

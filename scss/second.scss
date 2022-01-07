@@ -1,0 +1,27 @@
+.second {
+    background-color:$lightgrey-color;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height:50vh;
+
+    .icon {
+        max-width:20%;
+        text-align: center;
+
+        i {
+            font-size: 50px;
+            color:$blue-color;
+            padding-bottom:15px;
+        }
+
+        h2 {
+            padding-bottom:15px;
+        }
+
+        p {
+            font-size: 17.5px;
+            line-height: 25px;
+        }
+    }
+}

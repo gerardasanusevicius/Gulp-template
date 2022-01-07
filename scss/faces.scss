@@ -1,0 +1,40 @@
+.faces {
+    background-color:$lightgrey-color;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:100%;
+
+    h2 {
+        padding-top:50px;
+    }
+
+    article {
+        display:flex;
+        align-items:center;
+        justify-content: space-around;
+        padding: 50px 0px;
+
+        .face {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:30px;
+            max-width:20%;
+
+            img {
+                width:150px;
+                height:150px;
+                border-radius:100%;
+                padding-bottom:15px;
+            }
+
+            p {
+                text-align: center;
+                font-size: 17.5px;
+                padding-top:15px;
+            }
+        }
+    }
+}

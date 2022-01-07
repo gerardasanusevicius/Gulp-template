@@ -1,0 +1,139 @@
+@media (min-width:620px) and (max-width:890px) {
+    .flex {
+        div {
+        width:50%;
+        
+            h2,
+            p {
+                margin:0;
+                padding:10px;
+            }
+        }
+    }
+}
+
+@media (max-width:620px) {
+    header {
+        h3 {
+            margin-left:5%;
+        }
+
+        a {
+            margin-right:5%;
+        }
+    }
+
+    .top {
+        h1 {
+            width:90%;
+        }
+
+        form {
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+
+            .button {
+                margin-top:10px;
+            }
+
+            .email {
+                max-width: 80%;
+            }
+        }
+    }
+
+    .second {
+        flex-direction:column;
+        height:100%;
+
+        .icon {
+            max-width:90%;
+            margin:25px 0px;
+        }
+    }
+
+    .flex {
+        flex-direction:column-reverse;
+        max-width:fit-content;
+        
+                div {
+            width:100%;
+            padding-top:7.5%;
+            padding-bottom:7.5%;
+            
+            h2,
+            p {
+                margin: 0 25%;
+                text-align:left;
+            }
+        }
+
+        img {
+                width:100%;
+                object-fit: cover;
+                object-position: 0%;
+                height:400px;
+            }
+
+    }
+
+    .flex:nth-of-type(even) {
+    flex-direction: column-reverse;
+    }
+
+    .faces {
+        h2 {
+            padding-top:25px;
+            max-width:60%;
+            text-align:center;
+        }
+        article {
+            flex-direction:column;
+            padding-top:15px;
+
+            .face {
+                max-width: 80%;
+                padding-top:25px;
+                padding-bottom:25px;
+
+                img {
+                width:250px;
+                height:250px;
+            }
+            }    
+        }
+    }
+
+    .bottom {
+        h1 {
+            width:90%;
+        }
+
+        form {
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+
+            .button {
+                margin-top:10px;
+            }
+
+            .email {
+                max-width: 80%;
+            }
+        }
+    }
+
+    footer {
+        flex-direction:column;
+
+        .left {
+            align-items:center;
+        }
+
+        .sublinks {
+            flex-wrap:wrap;
+        }
+    }
+}
